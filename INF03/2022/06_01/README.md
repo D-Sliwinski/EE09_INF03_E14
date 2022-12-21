@@ -1,1 +1,1 @@
-inf03_20222_06_01 solution
+2022_06_01 solution
