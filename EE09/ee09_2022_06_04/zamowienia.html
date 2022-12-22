@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zamówienia hurtowe</title>
+    <link rel="stylesheet" href="styl4.css">
+</head>
+<body>
+    <header>
+        <h1>Sieci komputerowe</h1>
+    </header>
+    <section id="lewy">
+        <h2>Aktualizacja i zamówienia materiałów</h2>
+        <p>Do wewnętrznego użytku firmy</p>
+        <img src="obraz.png" alt="sieć komputerowa">
+    </section>
+    <section id="prawy">
+        <table>
+            <tr>
+                <th>Produkt</th>
+                <th>Jednostka</th>
+                <th>Dostępna ilość</th>
+                <th>Aktualizacja</th>
+                <th>Zamówienie</th>
+            </tr>
+            <tr>
+                <td id="nazwa1">Skrętka U/UTP drut</td>
+                <td>metr</td>
+                <td id="stan1">20</td>
+                <td><button onclick="aktualizuj(document.querySelector('#stan1').innerHTML,stan1)">Aktualizuj</button></td>
+                <td><button onclick="zamow(nazwa1)">Zamów</button></td>
+            </tr>
+            <tr>
+                <td id="nazwa2">Skrętka U/UTP linka</td>
+                <td>metr</td>
+                <td id="stan2">2</td>
+                <td><button onclick="aktualizuj(document.querySelector('#stan2').innerHTML,stan2)">Aktualizuj</button></td>
+                <td><button onclick="zamow(nazwa2)">Zamów</button></td>
+            </tr>
+            <tr>
+                <td id="nazwa3">Wtyki 8P8C</td>
+                <td>sztuki</td>
+                <td id="stan3">10</td>
+                <td><button onclick="aktualizuj(document.querySelector('#stan3').innerHTML,stan3)">Aktualizuj</button></td>
+                <td><button onclick="zamow(nazwa3)">Zamów</button></td>
+            </tr>
+            <tr>
+                <td id="nazwa4">Moduły Keystone</td>
+                <td>sztuki</td>
+                <td id="stan4">30</td>
+                <td><button onclick="aktualizuj(document.querySelector('#stan4').innerHTML,stan4)">Aktualizuj</button></td>
+                <td><button onclick="zamow(nazwa4)">Zamów</button></td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <a href="http://sieci.pl/">Nasza strona internetowa</a>
+        <p>Stronę przygotował: Dominik Śliwiński</p>
+    </footer>
+</body>
+<script src="skrypt.js"></script>
+</html>
