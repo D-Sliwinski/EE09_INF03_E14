@@ -1,0 +1,60 @@
+*{
+    font-size: tahoma;
+    margin: 0;
+}
+header{
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+}
+main{
+    background-color: seashell;
+    height: 500px;
+    overflow:scroll;
+}
+footer > section{
+    float: left;
+}
+footer > section{
+    background-color: tomato;
+    color: white;
+    width: 25%;
+    height: 160px;
+}
+.blok-opinii{
+    background-color: white;
+    color: dimgray;
+    width: 60%;
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 10px 5px dimgray;
+}
+img{
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+}
+p{
+    padding: 10px;
+    font-size: 150%;
+}
+h1,h2{
+    text-align: center;
+}
+h4{
+    text-align: right;
+    margin-right: 40px;
+    font-size: 150%;
+    font-style: italic;
+}
+a:link{
+    color: white;
+}
+blockquote{
+    padding: 10px;
+    font-size: 150%;
+    font-style: italic;
+}
