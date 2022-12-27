@@ -1,0 +1,44 @@
+main{
+    font-family: Helvetica;
+    background-color: Linen;
+    color: #222;
+    margin: auto;
+    width: 90%;
+}
+#baner1,#baner2{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 100px;
+    float: left;
+}
+#glowny{
+    padding: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+table{
+    margin: 40px;
+}
+tr,td{
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.odn{
+    color: #aaa;
+    text-decoration: none;
+}
+.odn:hover{
+    color: white;
+}
+li{
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    border-bottom: 1px solid white;
+}
