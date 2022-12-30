@@ -1,0 +1,4 @@
+1. SELECT haslo FROM uzytkownicy WHERE login="Justyna";
+2. SELECT COUNT(id) AS wiersze FROM dane;
+3. SELECT login,rok_urodz,przyjaciol,hobby,zdjecie FROM dane,uzytkownicy WHERE login="Justyna" AND uzytkownicy.id=dane.id;
+4. ALTER TABLE dane ADD COLUMN stanowisko varchar(255);
